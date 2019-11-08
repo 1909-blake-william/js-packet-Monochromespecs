@@ -36,19 +36,28 @@
 // Define function substring(someStr, length, offset)
 // Return the substring contained between offset and (offset + length) inclusively.
 // If incorrect input is entered, use the alert function and describe why the input was incorrect.
-
+function substring(someStr, length, offset){
+    return someStr.substring(offset, offset-1);
+}
 
 
 // 6. Even Number
 // Define function: isEven(someNum)
 // Return true if even, false if odd.
 // Do not use % operator.
-
+function isEven(someNum){
+    if (someNum/2 === 0)
+        return true;
+    else
+        return false;
+}
 
 // 7. Palindrome
 // Define function isPalindrome(someStr)
 // Return true if someStr is a palindrome, otherwise return false
+function isPalindrome(someStr){
 
+}
 
 // 8. Shapes
 // Define function: printShape(shape, height, character)

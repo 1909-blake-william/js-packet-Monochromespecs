@@ -10,26 +10,45 @@
 // 1. Fibonacci
 // Define function: fib(n)
 // Return the nth number in the fibonacci sequence.
-
+function fib(n){
+    if (n <= 1){
+        return n;
+    }
+    return fib(n-1) + fib(n-2);
+}
 
 
 // 2. Bubble Sort
 // Define function: bubbleSort(numArray)
 // Use the bubble sort algorithm to sort the array.
 // Return the sorted array.
+function bubbleSort(numArray){
+    let sortedArray = [];
 
+    return sortedArray;
+}
 
 
 // 3. Reverse String
 // Define function: reverseStr(someStr)
 // Reverse and return the String.
-
+function reverseStr(someStr){
+    let someRevStr = "";
+    for(let char of someStr){
+        someRevStr = char + someRevStr;
+    }
+    return someStr;
+}
 
 
 // 4. Factorial
 // Define function: factorial(someNum)
 // Use recursion to compute and return the factorial of someNum.
-
+function factorial(someNum){
+    if (someNum <= 1)
+        return 1;
+    return someNum*factorial(someNum-1);
+}
 
 
 // 5. Substring
